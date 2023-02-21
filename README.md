@@ -1,7 +1,7 @@
 # CHAIMELEON_lungct_harmonisation
 
 ## How to use this docker  
-Step1: Download the reliable weights through  
+Step1: Download the weights through  
 https://drive.google.com/file/d/1v-zjlJvEtvOpQ8NGVHkpcm3v17QlMwWx/view?usp=sharing     
 Place the downloaded files at the same layer as the 'weight.pth'
 
