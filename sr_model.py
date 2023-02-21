@@ -40,12 +40,12 @@ def _pre_process_input_array(input_file_path: str,lungmask_modelpath: str):
 
     return input, min, max, dtype
 
-def _pre_process_input_tensor(input: np.ndarray, use_gpu: bool,):
+def _pre_process_input_tensor(input: np.ndarray, use_gpu: int,):
     input = image_processing_utils.convert_array_to_tensor(input)
     input = image_processing_utils.upsample_image(input)
     input = input.float()
 
-    if use_gpu and torch.cuda.is_available():
+    if use_gpu>=0 and torch.cuda.is_available():
         device = torch.device('cuda')
     else:
         device = torch.device('cpu')
