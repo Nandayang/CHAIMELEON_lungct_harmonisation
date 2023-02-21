@@ -1,6 +1,6 @@
 # CHAIMELEON_lungct_harmonisation
 
-## Build the docker   
+## How to use this docker  
 Step1: Download the reliable weights through  
 https://drive.google.com/file/d/1v-zjlJvEtvOpQ8NGVHkpcm3v17QlMwWx/view?usp=sharing     
 
